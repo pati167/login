@@ -1,0 +1,104 @@
+body {
+  background-image: url("bg.jpg");
+  margin: 0;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+  color: #fb2576;
+  font-style: italic;
+  text-shadow: #fb2576 1px 0 10px;
+}
+.mainContainer {
+  padding-top: 25px;
+}
+h1 {
+  margin-bottom: 0;
+}
+p {
+  margin-bottom: 0;
+}
+/* lineFirst Glitch  */
+.lineFirst {
+  width: 80rem;
+  height: 6rem;
+  animation: glitch1 1s linear infinite;
+}
+@keyframes glitch1 {
+  2%,
+  64% {
+    transform: translate(5px, 0);
+  }
+  4%,
+  60% {
+    transform: translate(-5px, 0);
+  }
+  62% {
+    transform: translate(0, 0);
+  }
+}
+/* LineSecond Glitch */
+.lineSecond {
+  width: 80rem;
+  height: 6rem;
+  animation: glitch2 1s linear infinite;
+}
+@keyframes glitch2 {
+  2%,
+  64% {
+    transform: translate(-5px, 0);
+  }
+  4%,
+  60% {
+    transform: translate(5px, 0);
+  }
+  62% {
+    transform: translate(0, 0);
+  }
+}
+/* label */
+label {
+  text-align: left;
+}
+/* username container */
+#box1 {
+  background-color: transparent;
+  border: 2px solid #fb2576;
+  padding: 15px 20px 15px 20px;
+  margin-left: 5px;
+  cursor: text;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+  color: #9c254d;
+  font-style: italic;
+  margin-left: 45px;
+}
+/* password container */
+#box2 {
+  background-color: transparent;
+  border: 2px solid #fb2576;
+  padding: 15px 20px 15px 20px;
+  margin-left: 5px;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+  color: #9c254d;
+  font-style: italic;
+}
+/* login containter */
+#login {
+  background-color: transparent;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+  color: #fb2576;
+  font-style: italic;
+  border: 2px solid #9c254d;
+  padding: 10px 40px 10px 40px;
+  cursor: pointer;
+  text-shadow: #fb2576 1px 0 10px;
+}
